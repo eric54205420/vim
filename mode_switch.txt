@@ -1,0 +1,22 @@
+vim mode switch
+
+#normal mode 	to 	inert mode
+inert			   i
+			   I
+append			   a
+			   A
+newline			   o
+			   O
+
+#inert mode		to 	normal mode
+
+ESC / Ctrl + [
+
+#normal mode	to 	viual mode
+v
+V
+
+#visual mode	to 	normal mode
+
+ESC / Ctrl + [
+
