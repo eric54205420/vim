@@ -1,3 +1,100 @@
+http://col.dog/2015/12/13/vim-tutorials-001-references/
+http://inspiregate.com/programming/other/451-linux-vim-raiders-training-etc.html
+http://github.com/kaochenlong/eddie-vim
+http://github.com/scrooloose/nerdtree
+ 
+move:
+
+h j k l 	up down left right
+
+w / W	move a  word
+b / B	back  a word
+
+0 / $	at the begin/ end of the line
+
+fx / Fx	stop cursor in "x" 
+
+{	to next section
+}	to last section
+
+gg	to the begining of the file
+G	to the end of the file
+
+zz zb zt	move the screen in the center/ top / end
+
+(*) /"some_word"	move to "some_word"
+	n		the next
+	N		back 
+
+visual mode
+
+vit	select the contents between the tag.	( <a>"http:\\www.google.om"</a> )
+vat	select the contents withd tag		( "<a>http:\\www.google.om</a>" )
+
+viw 	select the current word 
+
+vi"	select the content between current double quotes
+
+ctrl + v	block select
+    c	to inert mode
+   	[ edit contents ]
+	# back to normal mode it will changed
+
+fold the file
+* under visual mode
+* selet the contents
+zf 	fold the contents
+zd
+
+
+open file
+:tabe	create a new file
+   gt	go to next
+   Gt	go to previous
+
+:new 123.txt	seperate screen to present file and 123.txt ( left/ right )
+:vnew 123.txt 	seperate screen to present file and 123.txt ( up/ down )
+	crtl+ww	move to the next one
+
+vim -o 123.txt 456.txt		open file side by side
+vim -O 123.txt 456.txt	open file up and down
+vim -p 123.txt 456.txt		open file with tab
+
+
+move combination
+
+cit
+cat
+vit
+vat
+dit
+dat
+yaw
+yiw
+
+edit
+
+D	clear current contents of current line
+C	= D + i
+dG	clear all content after the cursor
+dgg	clear all content before the cursor
+dd 	delete whole line
+x	remove a charater
+
+u 	undo
+ctrl+r	redo
+
+. 	repeat the last move
+~	upper case to lower case or reverse
+>>	add indentation
+<<	reduce indentation
+
+J 	join to one line
+
+
+
+
+
 vim mode switch
 
 #normal mode 	to 	inert mode
